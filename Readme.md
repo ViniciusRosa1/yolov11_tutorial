@@ -82,8 +82,4 @@ Abaixo, alguns exemplos de detecção realizada pelo modelo treinado:
 Feito por:
 **Vinícius Amaro da Rosa** - [Git](https://github.com/ViniciusRosa1) 
 
----
 
-## 📄 Licença
-
-Este projeto está licenciado sob a [MIT License](LICENSE).
