@@ -32,6 +32,22 @@ YOLOv11 é uma versão mais recente da arquitetura YOLO, trazendo melhorias em d
 - **Divisão**: Treinamento, validação, teste
 
 ---
+## Estrutura do Repositório
+
+Aqui você deve descrever brevemente a estrutura do repositório
+
+```text
+RepoAI/
+└── tutorial_yolov11
+    ├── images/
+    │   ├── testes/  -> imagens usadas para teste
+    ├── video/
+    ├── code/
+    |   └── codigo.ipynb 
+    └──  README.md
+```
+
+---
 
 ### 🚀 Etapas
 
@@ -43,7 +59,16 @@ YOLOv11 é uma versão mais recente da arquitetura YOLO, trazendo melhorias em d
 6. Treinamento
 7. Validação do treinamento
 8. Inferência com o modelo treinado
+
 ---
+
+## 😀 Universo Roboflow 
+
+Durante o vídeo, mostro passo a passo como utilizar um [dataset]( https://universe.roboflow.com/roboflow-universe-projects/license-plate-recognition-rxg4e/dataset/11) público na plataforma – no nosso caso, um dataset voltado para detecção de placas de carros. 
+
+![video](video/roboflow.gif)
+
+
 ## 🔄 Fases do Processo: Treinamento, Validação e Inferência
 
 Durante o desenvolvimento de um modelo de detecção de objetos, passamos por três fases principais:
@@ -77,9 +102,12 @@ Abaixo, alguns exemplos de detecção realizada pelo modelo treinado:
 
 ---
 
-## 🧑‍💻 Autor
+## Contribuidores
 
-Feito por:
-**Vinícius Amaro da Rosa** - [Git](https://github.com/ViniciusRosa1) 
+ | [<img loading="lazy" src="https://avatars.githubusercontent.com/u/84021144?v=4" width=115><br><sub>Vinicius Rosa</sub>](https://github.com/ViniciusRosa1)  |
+| :---: 
 
 
+## Licença 📝
+
+"Este projeto está sob a licença CC-BY 4.0."
