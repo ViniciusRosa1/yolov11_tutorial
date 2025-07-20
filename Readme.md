@@ -78,7 +78,7 @@ RepoAI/
 flowchart TD;
     A[Início] --> B{Escolha do Dataset};
 
-    B-->|Usar dataset pronto (Roboflow)| C[Dataset Pronto];
+    B-->|Usar dataset pronto - Roboflow| C[Dataset Pronto];
     B-->|Criar dataset do zero| D[ Coleta e Anotação de Imagens];
 
     C-->E[Pré-processamento e Augmentação];
