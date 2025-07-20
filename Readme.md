@@ -74,23 +74,19 @@ RepoAI/
 ### 🚀 Etapas
 
 ```mermaid
-
 flowchart TD;
     A[Início] --> B{Escolha do Dataset};
-
     B-->|Usar dataset pronto - Roboflow| C[Dataset Pronto];
-    B-->|Criar dataset do zero| D[ Coleta e Anotação de Imagens];
-
-    C-->E[Pré-processamento e Augmentação];
-    D-->E;
-
-    E-->F[YOLOv11 Setup];
-    F-->G[Treinamento YOLOv11];
-    G-->H[Validação e Métricas];
-    H-->I[Inferência em Novas Imagens];
-    I-->J[Resultados e Visualizações];
-
+    B-->|Criar dataset do zero| D[Coleta e Anotação de Imagens];
+    C --> E[Pré-processamento e Augmentação];
+    D --> E;
+    E --> F[YOLOv11 Setup];
+    F --> G[Treinamento YOLOv11];
+    G --> H[Validação e Métricas];
+    H --> I[Inferência em Novas Imagens];
+    I --> J[Resultados e Visualizações];
 ```
+
 
 
 
